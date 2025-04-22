@@ -1,0 +1,83 @@
+
+.body{
+  font-family: "DM Serif Text", serif;
+  font-weight: 100;
+  font-style: normal;
+
+}
+
+.container{
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a.navbar-brand {
+  color:  #005A8D
+}
+
+a.nav-link{
+  color:  #005A8D
+}
+
+.tagline {
+  text-transform: uppercase;
+  color:  #fff;
+  border-radius: 0.375rem;
+  display: inline-block;
+  padding: 5px;
+  text-align: center;
+  background: linear-gradient(#11cdd4, #5c7bb5);
+}
+
+.introduction {
+  font-weight: 200;
+}
+
+.subtitle{
+  background: linear-gradient(#11cdd4, #5c7bb5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.profile {
+  position: relative;
+  height: 30vw;
+  border-radius: 5vw;
+  max-height: 40rem;
+  max-width: 40rem;
+  background: linear-gradient(#11cdd4, #5c7bb5);
+}
+
+.col-auto{
+  color: #005A8D;
+  font-size: 0.75rem;
+  padding: 50px, 0;
+}
+
+.h2{
+  color: #000
+}
+
+.we{
+  text-align: left;
+}
+
+.img-fluid{
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 50px;
+    width: 350px;
+}
+
+.we-img{
+  padding: 50px;
+  width: 350px;
+  align-items: center;
+}
+
+.pics{
+  align-items: center;
+  padding-left: 200px;
+}
+
