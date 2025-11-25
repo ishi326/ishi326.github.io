@@ -1,80 +1,237 @@
-<html lang="en">
-    <head>
-        <title>Ishita Bhargava Website</title>
-        <link href="styles.css" rel="stylesheet"/>
-        <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Inter+Tight:wght@100..900&display=swap" rel="stylesheet"> 
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
-    </head>
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Personal Website</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">Ishita's Website</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#work">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-    <body>
-        <main>
-            <!-- Navigation -->
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <div class="container">
-                    <a class="navbar-brand" href="index.html">My Website</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
-                            <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
+  <!-- ===== ABOUT ===== -->
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="about-wrapper">
+      <div class="about-text">
+        <p>
+          Hi, I'm Ishita Bhargava!
+          As an HCI Researcher, I work at the intersection of HCI, design, and AI to explore how intelligence can take expressive, material form.
+        </p>
+        <a href="Ishita_PhD_Resume.pdf" download="Your_Name_CV.pdf" class="cv-btn">Download CV</a>
+      </div>
 
-            <!-- Header-->
-            <header class="py-5">
-                <div class="container px-5">
-                    <div class="row align-items-center">
-                        <div class="col-xl-5">
-                            <!-- Header text content-->
-                            <div class="text-center text-xl-start">
-                                <div class="tagline">Ishita Bhargava's personal website</div>
-                                <h4 class="introduction mt-2">student @ Wellesley College</h4>
-                                <a class="btn btn-primary my-5 btn-lg" href="resume.html">Resume</a>
-                                <a class="btn btn-outline-dark my-5 btn-lg" href="projects.html">Projects</a>
-                            </div>
-                        </div>
-                        <div class="col-xl-7">
-                            <!-- Replace this div with your own photo -->
-                            <div class="bg-gradient-primary-to-secondary d-flex justify-content-center">
-                                <img src="IMG_7972.jpeg" class="profile pl-2" alt="image of Ishita Bhargava">
-                            </div>
-                        </div>
-                    </div>
-                
-                </div>
+      <div class="about-photo">
+        <div class="photo-bg-layer layer1"></div>
+        <div class="photo-bg-layer layer2"></div>
+        <div class="photo-bg-layer layer3"></div>
+        <img src="pp_2.png" alt="Profile Photo" class="about-img" />
+      </div>
+    </div>
+  </section>
 
-            </header>
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="card-grid">
 
-            <!-- About Section-->
-            <section class="bg-light py-5">
-                <div class="container text-center">
-                    <h2><span class="subtitle">About Me</span></h2>
-                    <p class="lead fw-light mb-4">My name is Ishita Bhargava and I am passionate about UI/UX Design, Human Computer Interaction and Human-AI Collaboration</p>
-                    <p>I'm a sophomore at Wellesley College majoring in Computer Science. In my free time, I enjoy looking for new place to eat, planning travel itineraries and photography. I'm interested in what makes a user pick the highest tip option on a screen even though they don't want to or why apple has created an ecosystem that users find difficult to snap out of. HCI and the psychology of User Centered Design truly enthrall me.</p>
-                    <div class="d-flex justify-content-center fs-2 gap-4">
-                        <a class="subtitle" href="www.linkedin.com/in/-ishita-bhargava"><i class="bi bi-linkedin"></i></a>
-                        <a class="subtitle" href="https://github.com/ishi326"><i class="bi bi-github"></i></a>
-                    </div>
-                </div>
-            </section>
-        </main>
+      <!-- CARD TEMPLATE FOR ALL 6 -->
 
-        <!-- Footer-->
-        <footer>
-            <div class="row align-items-center justify-content-between">
-                <div class="col-auto">
-                    <div>@Copyright, Your Website 2023</div>
-                </div>
-                <div class="col-auto">
-                    <a href="#">Terms</a>
-                </div>
+      <div class="card" data-tilt>
+        <div class="card-inner">
+          <div class="card-front">
+            <div class="card-content">
+              <div class="chip">Tangible Interfaces</div>
+              <div class="title">Between Time's Fingers</div>
+              <p class="desc">An interactive installation exploring anticipatory grief through tangible interaction and sensory feedback.</p>
+              <button class="card-btn flip-btn">View Project</button>
             </div>
-        </footer>
+          </div>
+          <div class="card-back">
+            <a href="https://www.behance.net/" target="_blank" class="back-link">Link to paper</a>
+          </div>
+        </div>
+      </div>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    </body>
+      <div class="card" data-tilt>
+        <div class="card-inner">
+          <div class="card-front">
+            <div class="card-content">
+              <div class="chip">Independent Research</div>
+              <div class="title">Biases in Human-AI Interaction</div>
+              <p class="desc"> Exploration of how algorithmic bias and human cognition intersect in AI-driven hiring systems.</p>
+              <button class="card-btn flip-btn">View Project</button>
+            </div>
+          </div>
+          <div class="card-back">
+            <a href="https://www.behance.net/" target="_blank" class="back-link">Click me!</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Duplicate structure and change chip/title/desc as needed -->
+      <div class="card" data-tilt>
+        <div class="card-inner">
+          <div class="card-front">
+            <div class="card-content">
+              <div class="chip">UX Design</div>
+              <div class="title">WE-Decks</div>
+              <p class="desc">A fantasy card game app to increase student engagement with Wellesley athletics and strengthen campus community.
+              </p>
+              <button class="card-btn flip-btn">View Project</button>
+            </div>
+          </div>
+          <div class="card-back">
+            <a href="https://www.behance.net/" target="_blank" class="back-link">Visit Behance</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" data-tilt>
+        <div class="card-inner">
+          <div class="card-front">
+            <div class="card-content">
+              <div class="chip">UX Research</div>
+              <div class="title">Scaffolding Complex Choice Making </div>
+              <p class="desc">Uexploring how AI-guided interfaces can support effective decision making in complex, multi constraint tasks such as university course registration.</p>
+              <button class="card-btn flip-btn">View Project</button>
+            </div>
+          </div>
+          <div class="card-back">
+            <p class="desc">
+              <ul class="project-desc"> 
+                <li>Designed and implemented a study simulating course registration scenarios with undergraduate students.</li>
+                <li>Conducted semi-structured interviews and surveys to analyze how students externalize reasoning, manage trade-offs, and align degree requirements with personal goals.</li>
+                <li>Derived design principles for guided prompting interfaces that structure reflection and decision-making without automating user choice.</li>
+              </ul> </p>
+          </div>
+        </div>             
+      </div>
+
+      <div class="card" data-tilt>
+        <div class="card-inner">
+          <div class="card-front">
+            <div class="card-content">
+              <div class="chip">Independent Research</div>
+              <div class="title">How spatially intelligent is AI?</div>
+              <p class="desc">Investigating the extent of spatial intelligence in conversational AI through hands-on and benchmark-based experiments.
+              </p>
+              <button class="card-btn flip-btn">View Project</button>
+            </div>
+          </div>
+          <div class="card-back">
+            <a href="https://www.behance.net/" target="_blank" class="back-link">See Results</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" data-tilt>
+        <div class="card-inner">
+          <div class="card-front">
+            <div class="card-content">
+              <div class="chip">Design</div>
+              <div class="title">World in your room</div>
+              <p class="desc">Soft illustrative posters from across the world</p>
+              <button class="card-btn flip-btn">View Project</button>
+            </div>
+          </div>
+          <div class="card-back">
+            <a href="https://www.behance.net/" target="_blank" class="back-link">Visit Behance</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCE ===== -->
+  <section id="work">
+    <h2>Experience</h2>
+
+    <div class="timeline">
+      <div class="center-line"></div>
+
+      <div class="t-entry left">
+        <div class="t-dot"></div>
+        <div class="t-card">
+          <div class="t-icon">🎓</div>
+          <h3>Teaching Assistant - Wellesley CS Department</h3>
+          <div class="card-text">
+            <p class="time">2024-Present</p>
+          <p>Tutored students enrolled in CS 200 - Object Oriented Programming: Java Studio, CS 220 - Human Computer Interaction, CS 320 - Tangible User Interfaces </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="t-entry right">
+        <div class="t-dot"></div>
+        <div class="t-card">
+          <div class="t-icon">💻</div>
+          <h3>Undergraduate Research Intern - MIT Media Lab</h3>
+          <div class="card-text2">
+            <p class="time">June 2025 - August 2025</p>
+            <ul>
+              <li>Conducted comprehensive testing and debugging of gameplay functions to deliver a fully functional, competition ready Zero Robotics International Space Station (ISS) simulation environment</li>
+              <li>Collaborated with NASA and the Space Enabled Group to integrate real-world robotics programming into the student competition platform</li>
+              <li>Provided ongoing technical support to participating teams through weekly online forums, ensuring timely issue resolution</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="t-entry left">
+        <div class="t-dot"></div>
+        <div class="t-card">
+          <div class="t-icon">🎮</div>
+          <h3>Game Development Intern - Alterea Inc.</h3>
+          <div class="card-text">
+            <p class="time">Summer 2025</p>
+            <ul>
+              <li>Built a student-facing reporting system providing detailed performance insights to enhance learning outcomes track engagement</li>
+              <li>Designed and developed an interactive, filterable dashboard to display real-time, question-level gameplay data for students across Conversation, Research, and Analysis game modules</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="t-entry right">
+        <div class="t-dot"></div>
+        <div class="t-card">
+          <div class="t-icon">📚</div>
+          <h3>Summer Research Intern - Wellesley College</h3>
+          <div class="card-text2">
+            <p class="time">May 2024-July 2024</p>
+            <ul>
+              <li>Designed a new Computer Science course – “CS200 Object Oriented Programming: Java Studio” – set to be taught by the College in Spring 2025 to bridge the gap between the Introductory Computer Science course and Data Structures course</li>
+              <li>Developed several iterations of course schedules and composed a list of concepts to be covered during the course. Programmed in-class assignments and problem-sets to assess the grasp of concepts and solidify learning</li>
+              <li>Interacted with senior faculty members and students who successfully completed the introductory course on a weekly basis to understand the relevance of the course within the larger CS major. </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="contact-list">
+      <a href="mailto:your.email@example.com">📧 Email: ib115@wellesley.edu/a>
+      <a href="https://www.linkedin.com/in/-ishita-bhargava" target="_blank">🔗 LinkedIn</a>
+      <a href="https://github.com/ishi326" target="_blank">🐙 GitHub</a>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
 </html>
